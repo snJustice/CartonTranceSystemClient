@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigRead", "ConfigRead\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communications", "Communications\Communications.csproj", "{DA87CB35-5892-41A7-9B89-EA3BD94E07A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loger", "Loger\Loger.csproj", "{683FD86C-5EB5-49E8-9950-375046EAA201}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,14 +45,6 @@ Global
 		{DA87CB35-5892-41A7-9B89-EA3BD94E07A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DA87CB35-5892-41A7-9B89-EA3BD94E07A7}.Release|x86.ActiveCfg = Release|x86
 		{DA87CB35-5892-41A7-9B89-EA3BD94E07A7}.Release|x86.Build.0 = Release|x86
-		{683FD86C-5EB5-49E8-9950-375046EAA201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{683FD86C-5EB5-49E8-9950-375046EAA201}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{683FD86C-5EB5-49E8-9950-375046EAA201}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{683FD86C-5EB5-49E8-9950-375046EAA201}.Debug|x86.Build.0 = Debug|Any CPU
-		{683FD86C-5EB5-49E8-9950-375046EAA201}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{683FD86C-5EB5-49E8-9950-375046EAA201}.Release|Any CPU.Build.0 = Release|Any CPU
-		{683FD86C-5EB5-49E8-9950-375046EAA201}.Release|x86.ActiveCfg = Release|Any CPU
-		{683FD86C-5EB5-49E8-9950-375046EAA201}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

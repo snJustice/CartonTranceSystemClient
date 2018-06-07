@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
       <Private>True</Private>
@@ -112,10 +116,6 @@
     <ProjectReference Include="..\ConfigRead\ConfigRead.csproj">
       <Project>{1a792987-24f0-41e4-9505-7e14ce424286}</Project>
       <Name>ConfigRead</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Loger\Loger.csproj">
-      <Project>{683fd86c-5eb5-49e8-9950-375046eaa201}</Project>
-      <Name>Loger</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -7,19 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using CartonTranceSystemClient.CustomApplication;
+using log4net;
 
-using Loger;
+using System.Reflection;
 
 namespace CartonTranceSystemClient
 {
     public partial class FormMain : Form
     {
         BrainHeart brain;
+        
         public FormMain()
         {
             InitializeComponent();
-            LogManager aa = new LogManager();
-            aa.WriteInfo("hello");
+           
+            
         }
 
         private void btnStart_Click(object sender, EventArgs e)
